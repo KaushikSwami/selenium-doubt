@@ -1,14 +1,11 @@
 Feature: Login For LeafTaps Application 
 	
-Scenario Outline: TC001 Positive Login Flow 
-	Given Enter the Username as <username> 
-	And Enter the password as <password>
-	When Click on the login button
+Scenario Outline: TC001 Select dropdown
+	Given select the dropdown 
+	And select multidropdown
 	
-	Examples: 
-		|username|password|
-		|DemoCSR|crmsfa| 
-		|DemoSalesManager|crmsfa|
+	
+	
 		
 
 	

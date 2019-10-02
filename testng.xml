@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-  <test thread-count="5" name="Test">
+  <test thread-count="5" name="Test" verbose="10">
     <classes>
-      <!-- <class name="com.leafBot.testcases.TC001_SelectDropDown"/>
-      <class name="com.leafBot.testcases.TC002_InputForm"/>
+      <class name="com.leafBot.testcases.TC001_SelectDropDown"/>
+      <!-- <class name="com.leafBot.testcases.TC002_InputForm"/>
       <class name="com.leafBot.testcases.TC003_multi_dropdown"/>
       <class name="com.leafBot.testcases.TC004_CheckBoxSelect"/>
       <class name="com.leafBot.testcases.TC005_Radio_Button"/>
       <class name="com.leafBot.testcases.TC006_JqueryDropDown"/> -->
-      <class name="com.leafBot.testcases.TC007_BootstrapDatePicker"/>
+     <!--  <class name="com.leafBot.testcases.TC007_BootstrapDatePicker"/> -->
       
       
       
