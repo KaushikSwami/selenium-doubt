@@ -29,6 +29,10 @@ public class SeleniumHomePage extends Annotations {
 	@FindBy(how=How.XPATH, using="(//a[@class='dropdown-toggle'])[2]") WebElement date_picker;
 	
 	@FindBy(how=How.LINK_TEXT, using="Bootstrap Date Picker") WebElement bootstrap_datepicker;
+	
+	@FindBy(how=How.LINK_TEXT,using="Alerts & Modals") WebElement alerts_models;
+	
+	@FindBy(how=How.LINK_TEXT,using="Javascript Alerts") WebElement javascript_alert;
 
 
 
@@ -80,5 +84,12 @@ public class SeleniumHomePage extends Annotations {
 		click(date_picker);
 		click(bootstrap_datepicker);
 		return new DatePickerPage();
+	}
+	public Javascript_alert alerts_models()
+	{
+		click(alerts_models);
+		click(javascript_alert);
+		return new Javascript_alert();
+		
 	}
 }

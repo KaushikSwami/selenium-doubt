@@ -1,130 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="1" failed="0" ignored="0" total="1" passed="0">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="3282" started-at="2019-10-02T11:42:11Z" finished-at="2019-10-02T11:42:14Z">
+  <suite name="Suite" duration-ms="19712" started-at="2019-10-07T12:46:13Z" finished-at="2019-10-07T12:46:32Z">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.leafBot.testcases.TC001_SelectDropDown@5abca1e0]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.leafBot.testcases.TC008_Alerts@5abca1e0]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Test" duration-ms="3282" started-at="2019-10-02T11:42:11Z" finished-at="2019-10-02T11:42:14Z">
-      <class name="com.leafBot.testcases.TC001_SelectDropDown">
-        <test-method status="PASS" signature="startReport()[pri:0, instance:com.leafBot.testcases.TC001_SelectDropDown@5abca1e0]" name="startReport" is-config="true" duration-ms="590" started-at="2019-10-02T11:42:10Z" finished-at="2019-10-02T11:42:11Z">
+    <test name="Test" duration-ms="19712" started-at="2019-10-07T12:46:13Z" finished-at="2019-10-07T12:46:32Z">
+      <class name="com.leafBot.testcases.TC008_Alerts">
+        <test-method status="PASS" signature="startReport()[pri:0, instance:com.leafBot.testcases.TC008_Alerts@5abca1e0]" name="startReport" is-config="true" duration-ms="242" started-at="2019-10-07T12:46:12Z" finished-at="2019-10-07T12:46:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startReport -->
-        <test-method status="PASS" signature="setData()[pri:0, instance:com.leafBot.testcases.TC001_SelectDropDown@5abca1e0]" name="setData" is-config="true" duration-ms="0" started-at="2019-10-02T11:42:11Z" finished-at="2019-10-02T11:42:11Z">
+        <test-method status="PASS" signature="setData()[pri:0, instance:com.leafBot.testcases.TC008_Alerts@5abca1e0]" name="setData" is-config="true" duration-ms="0" started-at="2019-10-07T12:46:13Z" finished-at="2019-10-07T12:46:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setData -->
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.leafBot.testcases.TC001_SelectDropDown@5abca1e0]" name="setUpClass" is-config="true" duration-ms="156" started-at="2019-10-02T11:42:11Z" finished-at="2019-10-02T11:42:11Z">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.leafBot.testcases.TC008_Alerts@5abca1e0]" name="setUpClass" is-config="true" duration-ms="78" started-at="2019-10-07T12:46:13Z" finished-at="2019-10-07T12:46:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="report()[pri:0, instance:com.leafBot.testcases.TC001_SelectDropDown@5abca1e0]" name="report" is-config="true" duration-ms="10" started-at="2019-10-02T11:42:11Z" finished-at="2019-10-02T11:42:11Z">
+        <test-method status="PASS" signature="report()[pri:0, instance:com.leafBot.testcases.TC008_Alerts@5abca1e0]" name="report" is-config="true" duration-ms="6" started-at="2019-10-07T12:46:13Z" finished-at="2019-10-07T12:46:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- report -->
-        <test-method status="FAIL" signature="beforeMethod()[pri:0, instance:com.leafBot.testcases.TC001_SelectDropDown@5abca1e0]" name="beforeMethod" is-config="true" duration-ms="3041" started-at="2019-10-02T11:42:11Z" finished-at="2019-10-02T11:42:14Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at com.leafBot.selenium.api.base.SeleniumBase.takeSnap(SeleniumBase.java:472)
-at utils.Reporter.reportStep(Reporter.java:47)
-at utils.Reporter.reportStep(Reporter.java:63)
-at com.leafBot.selenium.api.base.SeleniumBase.startApp(SeleniumBase.java:277)
-at com.leafBot.testng.api.base.Annotations.beforeMethod(Annotations.java:22)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.leafBot.testcases.TC008_Alerts@5abca1e0]" name="beforeMethod" is-config="true" duration-ms="4725" started-at="2019-10-07T12:46:13Z" finished-at="2019-10-07T12:46:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="SKIP" signature="dropDown()[pri:0, instance:com.leafBot.testcases.TC001_SelectDropDown@5abca1e0]" name="dropDown" duration-ms="0" started-at="2019-10-02T11:42:14Z" finished-at="2019-10-02T11:42:14Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at com.leafBot.selenium.api.base.SeleniumBase.takeSnap(SeleniumBase.java:472)
-at utils.Reporter.reportStep(Reporter.java:47)
-at utils.Reporter.reportStep(Reporter.java:63)
-at com.leafBot.selenium.api.base.SeleniumBase.startApp(SeleniumBase.java:277)
-at com.leafBot.testng.api.base.Annotations.beforeMethod(Annotations.java:22)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        <test-method status="PASS" signature="select_alerts()[pri:7, instance:com.leafBot.testcases.TC008_Alerts@5abca1e0]" name="select_alerts" duration-ms="11703" started-at="2019-10-07T12:46:17Z" finished-at="2019-10-07T12:46:29Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- dropDown -->
-        <test-method status="SKIP" signature="afterMethod()[pri:0, instance:com.leafBot.testcases.TC001_SelectDropDown@5abca1e0]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-10-02T11:42:14Z" finished-at="2019-10-02T11:42:14Z">
+        </test-method> <!-- select_alerts -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.leafBot.testcases.TC008_Alerts@5abca1e0]" name="afterMethod" is-config="true" duration-ms="3164" started-at="2019-10-07T12:46:29Z" finished-at="2019-10-07T12:46:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.leafBot.testcases.TC001_SelectDropDown@5abca1e0]" name="tearDownClass" is-config="true" duration-ms="6" started-at="2019-10-02T11:42:14Z" finished-at="2019-10-02T11:42:14Z">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.leafBot.testcases.TC008_Alerts@5abca1e0]" name="tearDownClass" is-config="true" duration-ms="3" started-at="2019-10-07T12:46:32Z" finished-at="2019-10-07T12:46:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
-        <test-method status="PASS" signature="stopReport()[pri:0, instance:com.leafBot.testcases.TC001_SelectDropDown@5abca1e0]" name="stopReport" is-config="true" duration-ms="493" started-at="2019-10-02T11:42:14Z" finished-at="2019-10-02T11:42:15Z">
+        <test-method status="PASS" signature="stopReport()[pri:0, instance:com.leafBot.testcases.TC008_Alerts@5abca1e0]" name="stopReport" is-config="true" duration-ms="228" started-at="2019-10-07T12:46:32Z" finished-at="2019-10-07T12:46:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- stopReport -->
-      </class> <!-- com.leafBot.testcases.TC001_SelectDropDown -->
+      </class> <!-- com.leafBot.testcases.TC008_Alerts -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
