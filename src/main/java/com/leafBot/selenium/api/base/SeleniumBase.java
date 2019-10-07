@@ -333,7 +333,7 @@ public class SeleniumBase extends Reporter implements Browser, Element{
 	public void acceptAlert() {
 		String text = "";		
 		try {
-			wait = new WebDriverWait(driver, 100);
+			wait = new WebDriverWait(driver, 10);
 			wait.until(ExpectedConditions.alertIsPresent());
 			Alert alert = driver.switchTo().alert();
 			text = alert.getText();
