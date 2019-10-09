@@ -2,47 +2,47 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="19712" started-at="2019-10-07T12:46:13Z" finished-at="2019-10-07T12:46:32Z">
+  <suite name="Suite" duration-ms="31964" started-at="2019-10-09T15:57:08Z" finished-at="2019-10-09T15:57:40Z">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.leafBot.testcases.TC008_Alerts@5abca1e0]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Test" duration-ms="19712" started-at="2019-10-07T12:46:13Z" finished-at="2019-10-07T12:46:32Z">
+    <test name="Test" duration-ms="31964" started-at="2019-10-09T15:57:08Z" finished-at="2019-10-09T15:57:40Z">
       <class name="com.leafBot.testcases.TC008_Alerts">
-        <test-method status="PASS" signature="startReport()[pri:0, instance:com.leafBot.testcases.TC008_Alerts@5abca1e0]" name="startReport" is-config="true" duration-ms="242" started-at="2019-10-07T12:46:12Z" finished-at="2019-10-07T12:46:13Z">
+        <test-method status="PASS" signature="startReport()[pri:0, instance:com.leafBot.testcases.TC008_Alerts@5abca1e0]" name="startReport" is-config="true" duration-ms="227" started-at="2019-10-09T15:57:08Z" finished-at="2019-10-09T15:57:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startReport -->
-        <test-method status="PASS" signature="setData()[pri:0, instance:com.leafBot.testcases.TC008_Alerts@5abca1e0]" name="setData" is-config="true" duration-ms="0" started-at="2019-10-07T12:46:13Z" finished-at="2019-10-07T12:46:13Z">
+        <test-method status="PASS" signature="setData()[pri:0, instance:com.leafBot.testcases.TC008_Alerts@5abca1e0]" name="setData" is-config="true" duration-ms="1" started-at="2019-10-09T15:57:08Z" finished-at="2019-10-09T15:57:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setData -->
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.leafBot.testcases.TC008_Alerts@5abca1e0]" name="setUpClass" is-config="true" duration-ms="78" started-at="2019-10-07T12:46:13Z" finished-at="2019-10-07T12:46:13Z">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.leafBot.testcases.TC008_Alerts@5abca1e0]" name="setUpClass" is-config="true" duration-ms="134" started-at="2019-10-09T15:57:08Z" finished-at="2019-10-09T15:57:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="report()[pri:0, instance:com.leafBot.testcases.TC008_Alerts@5abca1e0]" name="report" is-config="true" duration-ms="6" started-at="2019-10-07T12:46:13Z" finished-at="2019-10-07T12:46:13Z">
+        <test-method status="PASS" signature="report()[pri:0, instance:com.leafBot.testcases.TC008_Alerts@5abca1e0]" name="report" is-config="true" duration-ms="11" started-at="2019-10-09T15:57:09Z" finished-at="2019-10-09T15:57:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- report -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.leafBot.testcases.TC008_Alerts@5abca1e0]" name="beforeMethod" is-config="true" duration-ms="4725" started-at="2019-10-07T12:46:13Z" finished-at="2019-10-07T12:46:17Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.leafBot.testcases.TC008_Alerts@5abca1e0]" name="beforeMethod" is-config="true" duration-ms="9093" started-at="2019-10-09T15:57:09Z" finished-at="2019-10-09T15:57:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="select_alerts()[pri:7, instance:com.leafBot.testcases.TC008_Alerts@5abca1e0]" name="select_alerts" duration-ms="11703" started-at="2019-10-07T12:46:17Z" finished-at="2019-10-07T12:46:29Z">
+        <test-method status="PASS" signature="select_alerts()[pri:7, instance:com.leafBot.testcases.TC008_Alerts@5abca1e0]" name="select_alerts" duration-ms="17616" started-at="2019-10-09T15:57:18Z" finished-at="2019-10-09T15:57:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- select_alerts -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.leafBot.testcases.TC008_Alerts@5abca1e0]" name="afterMethod" is-config="true" duration-ms="3164" started-at="2019-10-07T12:46:29Z" finished-at="2019-10-07T12:46:32Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.leafBot.testcases.TC008_Alerts@5abca1e0]" name="afterMethod" is-config="true" duration-ms="5069" started-at="2019-10-09T15:57:35Z" finished-at="2019-10-09T15:57:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.leafBot.testcases.TC008_Alerts@5abca1e0]" name="tearDownClass" is-config="true" duration-ms="3" started-at="2019-10-07T12:46:32Z" finished-at="2019-10-07T12:46:32Z">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.leafBot.testcases.TC008_Alerts@5abca1e0]" name="tearDownClass" is-config="true" duration-ms="6" started-at="2019-10-09T15:57:40Z" finished-at="2019-10-09T15:57:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
-        <test-method status="PASS" signature="stopReport()[pri:0, instance:com.leafBot.testcases.TC008_Alerts@5abca1e0]" name="stopReport" is-config="true" duration-ms="228" started-at="2019-10-07T12:46:32Z" finished-at="2019-10-07T12:46:32Z">
+        <test-method status="PASS" signature="stopReport()[pri:0, instance:com.leafBot.testcases.TC008_Alerts@5abca1e0]" name="stopReport" is-config="true" duration-ms="266" started-at="2019-10-09T15:57:40Z" finished-at="2019-10-09T15:57:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- stopReport -->
